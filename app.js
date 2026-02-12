@@ -1,7 +1,7 @@
 const coupleProfile = {
   personA: "Ramon",
   personB: "Suzy",
-  anniversaryDate: "2018-02-13",
+  anniversaryDate: "2017-02-13",
   introMessage:
     "Uma linha do tempo feita para lembrar nossos melhores momentos, rir das histórias malucas e agradecer por cada dia juntos.",
 };
