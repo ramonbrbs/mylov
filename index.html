@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniversário de Namoro | Nossa História</title>
+    <meta
+      name="description"
+      content="Página de aniversário de namoro com fotos, vídeos e mensagens em português."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@600;700&family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="gate-active intro-active">
+    <aside class="name-gate" id="nameGate" aria-label="Desbloqueio da celebração">
+      <div class="name-gate-frame">
+        <p class="name-gate-kicker">acesso especial</p>
+        <h2>Qual o seu nome?</h2>
+        <form id="nameGateForm" class="name-gate-form" autocomplete="off">
+          <label for="nameGateInput" class="sr-only">Digite seu nome para desbloquear</label>
+          <input
+            id="nameGateInput"
+            name="name"
+            type="text"
+            placeholder="Digite aqui..."
+            required
+          />
+          <button type="submit">desbloquear</button>
+        </form>
+        <p id="nameGateHint" class="name-gate-hint">
+          Dica: este acesso reconhece quem carrega nosso apelido especial.
+        </p>
+      </div>
+    </aside>
+
+    <aside class="intro-overlay" id="introOverlay" aria-label="Introdução da celebração">
+      <div class="intro-frame">
+        <p class="intro-kicker">contando nosso tempo juntos</p>
+        <div class="intro-messages" aria-live="polite">
+          <p class="intro-line" data-intro-line>"8 anos não são 8 meses"</p>
+          <p class="intro-line" data-intro-line>"são 252460800 segundos!"</p>
+        </div>
+      </div>
+    </aside>
+
+    <div class="page-shell" id="pageShell">
+      <div class="grain" aria-hidden="true"></div>
+      <div class="orb orb-a" aria-hidden="true"></div>
+      <div class="orb orb-b" aria-hidden="true"></div>
+      <div class="orb orb-c" aria-hidden="true"></div>
+
+      <header class="hero" id="inicio">
+        <nav class="topbar">
+          <span class="topbar-tag">nosso aniversário</span>
+          <a href="#videos" class="topbar-link">ver vídeos</a>
+        </nav>
+
+        <div class="hero-copy">
+          <p class="eyebrow">experiência vibrante em português (brasil)</p>
+          <h1>Nosso Amor Em Cores Vivas</h1>
+          <p id="heroSubtitle">
+            Uma linha do tempo com memórias especiais para celebrar nossa história.
+          </p>
+          <div class="chip-row">
+            <span class="pulse-chip">💌 Mensagens editáveis</span>
+            <span class="pulse-chip">📸 15 fotos prontas</span>
+            <span class="pulse-chip">🎬 2 vídeos especiais</span>
+          </div>
+        </div>
+
+        <div class="hero-metrics" aria-label="Métricas de tempo juntos">
+          <article>
+            <span id="metricYears">0</span>
+            <p>Anos juntos</p>
+          </article>
+          <article>
+            <span id="metricMonths">0</span>
+            <p>Meses além dos anos</p>
+          </article>
+          <article>
+            <span id="metricDays">0</span>
+            <p>Dias de parceria</p>
+          </article>
+        </div>
+
+        <a href="#galeria" class="hero-cta">explorar nossa história</a>
+      </header>
+
+      <main>
+        <section class="section" id="galeria">
+          <div class="section-head">
+            <p class="section-kicker">galeria principal</p>
+            <h2>15 fotos, 15 capítulos da nossa história</h2>
+            <p>
+              Cada card possui título, data e mensagem. Você pode trocar texto e imagem
+              diretamente no arquivo <code>app.js</code>.
+            </p>
+          </div>
+          <div id="photoGrid" class="photo-grid"></div>
+        </section>
+
+        <section class="section" id="videos">
+          <div class="section-head">
+            <p class="section-kicker">momentos em movimento</p>
+            <h2>Vídeos para reviver cada detalhe</h2>
+            <p>Também são placeholders: substitua os links pelos seus vídeos quando quiser.</p>
+          </div>
+          <div id="videoGrid" class="video-grid"></div>
+        </section>
+
+        <section class="section" id="mensagens">
+          <div class="section-head">
+            <p class="section-kicker">mural de carinho</p>
+            <h2>Mensagens rápidas para completar a surpresa</h2>
+          </div>
+          <div id="messageWall" class="message-wall"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Feito para celebrar o amor de <span id="footerCoupleNames">vocês dois</span>.
+        </p>
+        <p>
+          Dica: altere nomes, data, fotos, vídeos e textos em
+          <code>app.js</code> para personalizar tudo.
+        </p>
+      </footer>
+
+      <aside class="lightbox" id="lightbox" hidden>
+        <button id="lightboxClose" class="lightbox-close" aria-label="Fechar foto ampliada">
+          fechar
+        </button>
+        <img id="lightboxImage" alt="Foto ampliada da memória" />
+        <p id="lightboxCaption"></p>
+      </aside>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
