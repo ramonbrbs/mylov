@@ -9,111 +9,140 @@ const coupleProfile = {
 // Troque fotos, mensagens e datas aqui quando quiser personalizar.
 const photoMemories = [
   {
-    title: "Nosso Primeiro Encontro",
-    date: "12/06/2021",
-    message: "A ansiedade batendo forte, mas o sorriso entregou que era começo de algo gigante.",
-    photoUrl: "https://picsum.photos/seed/amor-01/1200/900",
+    title: "Luzes de Dezembro",
+    date: "30/11/2016",
+    message:
+      "Selfie espontânea com decoração natalina ao fundo. A foto tem movimento e brilho difuso, mas transmite alegria pura e início de uma memória afetiva.",
+    photoUrl: "media/20161201_001040944_iOS.JPG",
   },
   {
-    title: "Pôr do Sol na Praia",
-    date: "03/07/2021",
-    message: "A gente ficou em silêncio vendo o céu mudar de cor e parecia que o tempo tinha parado.",
-    photoUrl: "https://picsum.photos/seed/amor-02/1200/900",
+    title: "Sorriso em Ambiente Aconchegante",
+    date: "12/02/2017",
+    message:
+      "Retrato íntimo em ambiente interno, com luz quente e proximidade do enquadramento. O foco está no sorriso e na leveza do momento.",
+    photoUrl: "media/IMG_1437.JPG",
   },
   {
-    title: "Cinema e Pipoca",
-    date: "20/08/2021",
-    message: "No fim do filme, a melhor parte ainda era ter você segurando minha mão.",
-    photoUrl: "https://picsum.photos/seed/amor-03/1200/900",
+    title: "Construindo Nosso Espaço",
+    date: "29/04/2017",
+    message:
+      "Cena doméstica de pintura com escada e fita azul de acabamento. A imagem simboliza parceria prática e cuidado com o que vocês constroem juntos.",
+    photoUrl: "media/IMG_2149.JPG",
   },
   {
-    title: "Viagem Relâmpago",
-    date: "11/09/2021",
-    message: "Mochila pequena, planos grandes e a certeza de que com você tudo vira aventura.",
-    photoUrl: "https://picsum.photos/seed/amor-04/1200/900",
+    title: "Noite de Festa Popular",
+    date: "24/06/2019",
+    message:
+      "Registro em meio a multidão, chapéu de palha e iluminação forte de evento. A composição passa energia coletiva e diversão compartilhada.",
+    photoUrl: "media/IMG_2100.JPG",
   },
   {
-    title: "Almoço de Domingo",
-    date: "10/10/2021",
-    message: "Entre risadas e sobremesa repetida, fomos criando nosso jeito de ser casa.",
-    photoUrl: "https://picsum.photos/seed/amor-05/1200/900",
+    title: "Praia e Letreiro",
+    date: "03/11/2019",
+    message:
+      "Foto de dia aberto com céu limpo e letreiro de praia ao fundo. A cena destaca o clima de viagem leve e espontânea.",
+    photoUrl: "media/IMG_2507.JPG",
   },
   {
-    title: "Noite de Festa",
-    date: "31/10/2021",
-    message: "Dançamos sem técnica nenhuma e com felicidade de sobra.",
-    photoUrl: "https://picsum.photos/seed/amor-06/1200/900",
+    title: "Passeio de Máscara e Luzes",
+    date: "07/12/2020",
+    message:
+      "Selfie noturna com árvores iluminadas e ambos de máscara. O registro mostra cuidado, contexto de época e presença um do outro mesmo nos dias mais incertos.",
+    photoUrl: "media/IMG_0429.jpeg",
   },
   {
-    title: "Café na Varanda",
-    date: "27/11/2021",
-    message: "Conversa leve, vento no rosto e aquela paz de quem encontrou o lugar certo.",
-    photoUrl: "https://picsum.photos/seed/amor-07/1200/900",
+    title: "Festival ao Entardecer",
+    date: "03/12/2022",
+    message:
+      "Plano aberto de evento com palco, público e luz dourada do fim da tarde. A leitura visual é de celebração e sintonia entre vocês.",
+    photoUrl: "media/IMG_3984.JPG",
   },
   {
-    title: "Trilha e Cachoeira",
-    date: "18/12/2021",
-    message: "Subida cansativa, paisagem linda e o melhor prêmio: comemorar abraçados.",
-    photoUrl: "https://picsum.photos/seed/amor-08/1200/900",
+    title: "Beijo no Jardim",
+    date: "27/01/2023",
+    message:
+      "Composição romântica com perspectiva longa de jardim formal e céu dramático. O beijo no centro reforça intimidade e foco emocional da imagem.",
+    photoUrl: "media/IMG_4246.jpeg",
   },
   {
-    title: "Ano Novo",
-    date: "01/01/2022",
-    message: "Viramos o ano prometendo mais coragem, mais cuidado e mais nós dois.",
-    photoUrl: "https://picsum.photos/seed/amor-09/1200/900",
+    title: "Dia Verde na Rua",
+    date: "17/03/2023",
+    message:
+      "Cena urbana de celebração com roupas e adereços verdes, trazendo contexto cultural forte. A foto mistura movimento de rua e protagonismo dela.",
+    photoUrl: "media/IMG_4475.JPG",
   },
   {
-    title: "Surpresa de Aniversário",
-    date: "14/02/2022",
-    message: "Você caprichou nos detalhes e eu fiquei com aquele sorriso bobo o dia inteiro.",
-    photoUrl: "https://picsum.photos/seed/amor-10/1200/900",
+    title: "Pedras, Mar e Sol",
+    date: "28/05/2023",
+    message:
+      "Retrato em costão com mar calmo e montanha ao fundo. O contraste entre rocha e céu azul cria uma estética limpa, de descanso e conexão.",
+    photoUrl: "media/IMG_5447.JPG",
   },
   {
-    title: "Parque no Fim da Tarde",
-    date: "20/03/2022",
-    message: "Cada passo ao seu lado confirmou que meu caminho preferido é com você.",
-    photoUrl: "https://picsum.photos/seed/amor-11/1200/900",
+    title: "Arquitetura e Nós Dois",
+    date: "28/05/2023",
+    message:
+      "Selfie com fundo arquitetônico histórico e linhas góticas marcantes. A análise visual aponta contraste entre grandiosidade do cenário e proximidade do casal.",
+    photoUrl: "media/IMG_4913.jpeg",
   },
   {
-    title: "Jantar Especial",
-    date: "08/04/2022",
-    message: "A comida estava ótima, mas seu olhar ganhou de qualquer prato.",
-    photoUrl: "https://picsum.photos/seed/amor-12/1200/900",
+    title: "Primavera em Flor",
+    date: "13/04/2024",
+    message:
+      "Enquadramento fechado sob árvore florida rosa. A paleta suave e os sorrisos naturais deixam o momento delicado e muito fotogênico.",
+    photoUrl: "media/IMG_7059.JPG",
   },
   {
-    title: "Viagem dos Sonhos",
-    date: "21/05/2022",
-    message: "A paisagem era linda, mas meu cenário favorito continuou sendo você.",
-    photoUrl: "https://picsum.photos/seed/amor-13/1200/900",
+    title: "Dia de Praia com Flores",
+    date: "26/06/2024",
+    message:
+      "Foto de passeio costeiro com mar, palmeiras e buganvílias vibrantes. A composição comunica verão, viagem e tranquilidade em dupla.",
+    photoUrl: "media/IMG_7688.JPG",
   },
   {
-    title: "Dia de Preguiça",
-    date: "26/06/2022",
-    message: "Série, cobertor e paz. O simples fica perfeito quando estamos juntos.",
-    photoUrl: "https://picsum.photos/seed/amor-14/1200/900",
+    title: "Noite de Festa na Rua",
+    date: "02/02/2025",
+    message:
+      "Selfie em grupo com portal de festa ao fundo e iluminação noturna intensa. A leitura é de celebração comunitária e memória coletiva com amigos.",
+    photoUrl: "media/IMG_9443.jpeg",
   },
   {
-    title: "Nossa Foto Favorita",
-    date: "12/07/2022",
-    message: "Essa imagem guarda tudo: carinho, parceria e vontade de viver muitos capítulos ainda.",
-    photoUrl: "https://picsum.photos/seed/amor-15/1200/900",
+    title: "Cachoeira e Sorriso",
+    date: "04/05/2025",
+    message:
+      "Composição natural com água em movimento sobre rochas. O cenário transmite frescor e aventura leve, mantendo o casal como centro narrativo.",
+    photoUrl: "media/IMG_9869.jpeg",
+  },
+  {
+    title: "Caminho de Pedra e História",
+    date: "10/05/2025",
+    message:
+      "Registro em rua histórica com arquitetura medieval em profundidade. A foto valoriza escala do lugar e reforça a ideia de jornada compartilhada.",
+    photoUrl: "media/IMG_9996.JPG",
+  },
+  {
+    title: "Píer ao Sol",
+    date: "19/05/2025",
+    message:
+      "Selfie em passarela litorânea com horizonte aberto e linhas que conduzem o olhar. O resultado é uma imagem clara de parceria e cotidiano feliz.",
+    photoUrl: "media/IMG_0009.JPG",
   },
 ];
 
 const videoMemories = [
   {
-    title: "Fim de tarde inesquecível",
-    message: "Um vídeo para lembrar o dia em que a gente só riu e esqueceu do relógio.",
-    videoUrl:
-      "https://assets.mixkit.co/videos/preview/mixkit-happy-couple-running-on-the-beach-2716-large.mp4",
-    posterUrl: "https://picsum.photos/seed/video-capa-01/1200/720",
+    title: "Registro em Movimento - Abril",
+    message:
+      "Vídeo capturado em 13/04/2024 (metadado interno). Pela proximidade temporal com as fotos floridas do mesmo dia, ele funciona como extensão dinâmica do passeio de primavera.",
+    videoUrl: "media/IMG_7061.MOV",
+    posterUrl: "media/IMG_7059.JPG",
   },
   {
-    title: "Nossa energia em movimento",
-    message: "Aqui está nossa vibe: leve, divertida e sem filtro.",
-    videoUrl:
-      "https://assets.mixkit.co/videos/preview/mixkit-couple-having-fun-at-the-beach-4267-large.mp4",
-    posterUrl: "https://picsum.photos/seed/video-capa-02/1200/720",
+    title: "Registro em Movimento - Junho",
+    message:
+      "Vídeo de 26/06/2024 (metadado interno), alinhado ao bloco de fotos de praia do mesmo período. A análise aponta continuidade temática: verão, luz forte e atmosfera de viagem.",
+    videoUrl: "media/IMG_7701.MOV",
+    posterUrl: "media/IMG_7688.JPG",
   },
 ];
 
@@ -121,7 +150,6 @@ const heroSubtitle = document.getElementById("heroSubtitle");
 const footerCoupleNames = document.getElementById("footerCoupleNames");
 const photoGrid = document.getElementById("photoGrid");
 const videoGrid = document.getElementById("videoGrid");
-const messageWall = document.getElementById("messageWall");
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightboxImage");
 const lightboxCaption = document.getElementById("lightboxCaption");
@@ -144,7 +172,6 @@ footerCoupleNames.textContent = `${coupleProfile.personA} e ${coupleProfile.pers
 
 renderPhotoMemories();
 renderVideoMemories();
-renderMessageWall();
 updateRelationshipMetrics();
 setupLightbox();
 initAccessFlow();
@@ -193,21 +220,6 @@ function renderVideoMemories() {
           <h3>${video.title}</h3>
           <p>${video.message}</p>
         </div>
-      </article>
-    `
-    )
-    .join("");
-}
-
-function renderMessageWall() {
-  const snippets = photoMemories.slice(0, 8);
-
-  messageWall.innerHTML = snippets
-    .map(
-      (memory) => `
-      <article class="quote-card">
-        <p>"${memory.message}"</p>
-        <span>${memory.title}</span>
       </article>
     `
     )
@@ -295,7 +307,7 @@ function setupAnimations() {
     });
   });
 
-  gsap.utils.toArray(".video-card, .quote-card").forEach((card) => {
+  gsap.utils.toArray(".video-card, .impact-message-card").forEach((card) => {
     gsap.from(card, {
       opacity: 0,
       y: 44,
