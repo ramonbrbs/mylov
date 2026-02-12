@@ -1,7 +1,7 @@
 const coupleProfile = {
-  personA: "Seu Nome",
-  personB: "Nome do Amor",
-  anniversaryDate: "2021-06-12",
+  personA: "Ramon",
+  personB: "Suzy",
+  anniversaryDate: "2018-02-13",
   introMessage:
     "Uma linha do tempo feita para lembrar nossos melhores momentos, rir das histórias malucas e agradecer por cada dia juntos.",
 };
@@ -9,138 +9,138 @@ const coupleProfile = {
 // Troque fotos, mensagens e datas aqui quando quiser personalizar.
 const photoMemories = [
   {
-    title: "Luzes de Dezembro",
+    title: "Natal",
     date: "30/11/2016",
     message:
-      "Selfie espontânea com decoração natalina ao fundo. A foto tem movimento e brilho difuso, mas transmite alegria pura e início de uma memória afetiva.",
+      "Nosso primeiro Natal",
     photoUrl: "media/20161201_001040944_iOS.JPG",
   },
   {
-    title: "Sorriso em Ambiente Aconchegante",
+    title: "O Comecinho",
     date: "12/02/2017",
     message:
-      "Retrato íntimo em ambiente interno, com luz quente e proximidade do enquadramento. O foco está no sorriso e na leveza do momento.",
+      "As primeiras vezes que saimos juntos.",
     photoUrl: "media/IMG_1437.JPG",
   },
   {
-    title: "Construindo Nosso Espaço",
+    title: "Arrumando a minha vida",
     date: "29/04/2017",
     message:
-      "Cena doméstica de pintura com escada e fita azul de acabamento. A imagem simboliza parceria prática e cuidado com o que vocês constroem juntos.",
+      "Quando eu comecei a sair da caverna.",
     photoUrl: "media/IMG_2149.JPG",
   },
   {
-    title: "Noite de Festa Popular",
+    title: "São João",
     date: "24/06/2019",
     message:
-      "Registro em meio a multidão, chapéu de palha e iluminação forte de evento. A composição passa energia coletiva e diversão compartilhada.",
+      "Meu primeiro São João de verdade.",
     photoUrl: "media/IMG_2100.JPG",
   },
   {
-    title: "Praia e Letreiro",
+    title: "Shows",
     date: "03/11/2019",
     message:
-      "Foto de dia aberto com céu limpo e letreiro de praia ao fundo. A cena destaca o clima de viagem leve e espontânea.",
+      "Primeiras de muitas festas.",
     photoUrl: "media/IMG_2507.JPG",
   },
   {
-    title: "Passeio de Máscara e Luzes",
+    title: "Pandemia",
     date: "07/12/2020",
     message:
-      "Selfie noturna com árvores iluminadas e ambos de máscara. O registro mostra cuidado, contexto de época e presença um do outro mesmo nos dias mais incertos.",
+      "Foi difícil mas a gente passou junto.",
     photoUrl: "media/IMG_0429.jpeg",
   },
   {
-    title: "Festival ao Entardecer",
+    title: "Chegando no Frio",
     date: "03/12/2022",
     message:
-      "Plano aberto de evento com palco, público e luz dourada do fim da tarde. A leitura visual é de celebração e sintonia entre vocês.",
+      "O começo da gente nessas terras de frio e chuva.",
     photoUrl: "media/IMG_3984.JPG",
   },
   {
-    title: "Beijo no Jardim",
+    title: "Priemria Viagem na Europa",
     date: "27/01/2023",
     message:
-      "Composição romântica com perspectiva longa de jardim formal e céu dramático. O beijo no centro reforça intimidade e foco emocional da imagem.",
+      "A gente descobriu mais uma coisa em comum. A vontade de explorar o mundo.",
     photoUrl: "media/IMG_4246.jpeg",
   },
   {
-    title: "Dia Verde na Rua",
+    title: "St. Patricks",
     date: "17/03/2023",
     message:
-      "Cena urbana de celebração com roupas e adereços verdes, trazendo contexto cultural forte. A foto mistura movimento de rua e protagonismo dela.",
+      "Descobrimos também que tem coisas que só vamos gostar uma vez.",
     photoUrl: "media/IMG_4475.JPG",
   },
   {
     title: "Pedras, Mar e Sol",
     date: "28/05/2023",
     message:
-      "Retrato em costão com mar calmo e montanha ao fundo. O contraste entre rocha e céu azul cria uma estética limpa, de descanso e conexão.",
+      "Descobrimos o quanto é bom o calor.",
     photoUrl: "media/IMG_5447.JPG",
   },
   {
-    title: "Arquitetura e Nós Dois",
+    title: "Dublin",
     date: "28/05/2023",
     message:
-      "Selfie com fundo arquitetônico histórico e linhas góticas marcantes. A análise visual aponta contraste entre grandiosidade do cenário e proximidade do casal.",
+      "Aprendemos a esquecer a estação oposta do ano. No verão esquecemos o inverno, e no inverno o verão.",
     photoUrl: "media/IMG_4913.jpeg",
   },
   {
     title: "Primavera em Flor",
     date: "13/04/2024",
     message:
-      "Enquadramento fechado sob árvore florida rosa. A paleta suave e os sorrisos naturais deixam o momento delicado e muito fotogênico.",
+      "Com as primaveras agora damos valor a cada momento do ano.",
     photoUrl: "media/IMG_7059.JPG",
   },
   {
-    title: "Dia de Praia com Flores",
+    title: "Praia",
     date: "26/06/2024",
     message:
-      "Foto de passeio costeiro com mar, palmeiras e buganvílias vibrantes. A composição comunica verão, viagem e tranquilidade em dupla.",
+      "E continuamos explorando esse mundão.",
     photoUrl: "media/IMG_7688.JPG",
   },
   {
-    title: "Noite de Festa na Rua",
+    title: "Sem esquecer nossas raízes",
     date: "02/02/2025",
     message:
-      "Selfie em grupo com portal de festa ao fundo e iluminação noturna intensa. A leitura é de celebração comunitária e memória coletiva com amigos.",
+      "Agora que temos dois lugares, também não somos mais de lugar nenhum.",
     photoUrl: "media/IMG_9443.jpeg",
   },
   {
-    title: "Cachoeira e Sorriso",
+    title: "Viajar e viajar",
     date: "04/05/2025",
     message:
-      "Composição natural com água em movimento sobre rochas. O cenário transmite frescor e aventura leve, mantendo o casal como centro narrativo.",
+      "Ainda assim vamos explorar tudo.",
     photoUrl: "media/IMG_9869.jpeg",
   },
   {
-    title: "Caminho de Pedra e História",
+    title: "Natureza",
     date: "10/05/2025",
     message:
-      "Registro em rua histórica com arquitetura medieval em profundidade. A foto valoriza escala do lugar e reforça a ideia de jornada compartilhada.",
+      "Passar cada tempo e encontrar cada lugar novo.",
     photoUrl: "media/IMG_9996.JPG",
   },
   {
-    title: "Píer ao Sol",
+    title: "Você",
     date: "19/05/2025",
     message:
-      "Selfie em passarela litorânea com horizonte aberto e linhas que conduzem o olhar. O resultado é uma imagem clara de parceria e cotidiano feliz.",
+      "O importante é ter você do meu lado.",
     photoUrl: "media/IMG_0009.JPG",
   },
 ];
 
 const videoMemories = [
   {
-    title: "Registro em Movimento - Abril",
+    title: "Primavera",
     message:
-      "Vídeo capturado em 13/04/2024 (metadado interno). Pela proximidade temporal com as fotos floridas do mesmo dia, ele funciona como extensão dinâmica do passeio de primavera.",
+      "13/04/2024",
     videoUrl: "media/IMG_7061.MOV",
     posterUrl: "media/IMG_7059.JPG",
   },
   {
-    title: "Registro em Movimento - Junho",
+    title: "Verão",
     message:
-      "Vídeo de 26/06/2024 (metadado interno), alinhado ao bloco de fotos de praia do mesmo período. A análise aponta continuidade temática: verão, luz forte e atmosfera de viagem.",
+      "26/06/2024",
     videoUrl: "media/IMG_7701.MOV",
     posterUrl: "media/IMG_7688.JPG",
   },
